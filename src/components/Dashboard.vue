@@ -1,20 +1,19 @@
 <template>
   <div>
-    <div class="main-content">      
-    </div>
+    <div class="main-content"></div>
   </div>
 </template>
 
 <script>
 export default {
-  setup () {
-    return {}
-  }
-}
+  setup() {
+    return {};
+  },
+};
 </script>
 
 <style>
-  .main-content {
-    display: none
-  }
+.main-content {
+  display: none;
+}
 </style>

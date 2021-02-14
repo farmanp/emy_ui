@@ -1,19 +1,13 @@
 <template>
-  <div>
-    ACTION ITEMS!
-  </div>
+  <div>ACTION ITEMS!</div>
 </template>
 
 <script>
 export default {
-  setup () {
-    
-
-    return {}
-  }
-}
+  setup() {
+    return {};
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

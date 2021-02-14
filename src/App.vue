@@ -1,10 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >      
+    <v-app-bar app color="primary" dark>
       <!-- <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
@@ -40,21 +36,19 @@
     <v-main>
       <navigation />
       <!-- <form-wizard /> -->
-        <v-container
-          class="grey lighten-5 mb-6"
-        >
-          <router-view></router-view>
-        </v-container>
+      <v-container class="grey lighten-5 mb-6">
+        <router-view></router-view>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Navigation from './components/dashboard/Navigation';
+import Navigation from "./components/dashboard/Navigation";
 // import FormWizard from './views/FormWizard';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     Navigation,
@@ -67,7 +61,4 @@ export default {
 };
 </script>
 
-
-<style>
-
-</style>
+<style></style>
