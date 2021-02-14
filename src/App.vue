@@ -39,6 +39,7 @@
 
     <v-main>
       <navigation />
+      <!-- <form-wizard /> -->
         <v-container
           class="grey lighten-5 mb-6"
         >
@@ -50,12 +51,14 @@
 
 <script>
 import Navigation from './components/dashboard/Navigation';
+// import FormWizard from './views/FormWizard';
 
 export default {
   name: 'App',
 
   components: {
     Navigation,
+    // FormWizard
   },
 
   data: () => ({
