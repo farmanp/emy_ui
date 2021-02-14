@@ -10,18 +10,16 @@
 
 <script>
 export default {
-  setup () {
-    
-
-    return {}
-  }
-}
+  setup() {
+    return {};
+  },
+};
 </script>
 
 <style>
- .vertical-menu a {
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  }
+.vertical-menu a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
 </style>
