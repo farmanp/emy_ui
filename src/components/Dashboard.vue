@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="main-content"></div>
+    <div class="main-content">
+      Dashboard coming soon...
+    </div>
   </div>
 </template>
 
@@ -14,6 +16,5 @@ export default {
 
 <style>
 .main-content {
-  display: none;
 }
 </style>

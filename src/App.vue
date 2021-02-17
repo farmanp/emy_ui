@@ -36,7 +36,7 @@
     <v-main>
       <navigation />
       <!-- <form-wizard /> -->
-      <v-container class="grey lighten-5 mb-6">
+      <v-container class="grey lighten-2 mx-auto mr-12">
         <router-view></router-view>
       </v-container>
     </v-main>
