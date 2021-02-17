@@ -69,7 +69,7 @@ module.exports = {
 
   rules: {
     "prettier-vue/prettier": [
-      "error",
+      "warn",
       {
         // Override all options of `prettier` here
         // @see https://prettier.io/docs/en/options.html
